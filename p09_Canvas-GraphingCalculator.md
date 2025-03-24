@@ -60,7 +60,7 @@ El objetivo de esta práctica es el desarrollo de una aplicación que permita la
 de la representación gráfica de una función.
 
 Intente que su aplicación imite en la medida de lo posible a 
-[esta aplicación](https://www.geogebra.org/m/BTC45Jzp)
+[esta otra](https://www.geogebra.org/m/BTC45Jzp)
 que se tomará como referencia.
 
 De esa página imite los ejes coordenados así como la numeración de los mismos y el área de dibujo de la
@@ -75,7 +75,7 @@ Para cambiar la función que se representa habría que modificar la función pri
 
 Previo al desarrollo, realice un diseño de su aplicación identificando las diferentes clases que
 intervienen en el programa.
-Utilice alguna aplicación que conozca para dibujar un diagrama UML de las clases que intervienen.
+Utilice *LucidChart* para dibujar un diagrama UML de las clases que intervienen.
 
 La visualización de la ejecución del programa se realizará a través de una página web alojada
 en la máquina IaaS-ULL de la asignatura (puede utilizar si lo desea la extensión *Live View* de VSC) y cuya URL tendrá la forma:
