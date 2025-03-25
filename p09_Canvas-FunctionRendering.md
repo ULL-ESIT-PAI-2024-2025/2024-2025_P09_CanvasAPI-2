@@ -1,11 +1,12 @@
 # Práctica 9. Programación Gráfica en TypeScript. La API Canvas. Representación de funciones.
-### Factor de ponderación: 8
+### Factor de ponderación: 9
 
 ### Objetivos
 Los objetivos de esta tarea son poner en práctica:
 * Conceptos básicos de Programación Gráfica en TypeScript usando la API Canvas.
 * Metodologías y conceptos de diseño y Programación Orientada a Objetos en TypeScript.
 * Principios y Buenas prácticas de programación Orientada a Objetos.
+* Alguno de los patrones de diseño que se han estudiado en la asignatura.
 
 ### Rúbrica de evaluacion del ejercicio
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva)
@@ -59,19 +60,24 @@ de ejecución de su programa es el correcto.
 El objetivo de esta práctica es el desarrollo de una aplicación que permita la visualización en una página web
 de la representación gráfica de una función.
 
-Intente que su aplicación imite en la medida de lo posible a 
+Intente que su aplicación imite en la medida de lo posible el aspecto de
 [esta otra](https://www.geogebra.org/m/BTC45Jzp)
 que se tomará como referencia.
 
 De esa página imite los ejes coordenados así como la numeración de los mismos y el área de dibujo de la
 función.
-En el caso de esa página, pruebe a dibujar diferentes funciones usando el campo "Entrada" de la parte
+En esa página de referencia pruebe a dibujar diferentes funciones usando el campo "Entrada" de la parte
 inferior.
 Pruebe a introducir funciones como *sin(x)*, *exp(x)* o *sqrt(x)* y visualice el resultado.
 
-A diferencia de la aplicación de referencia, en la aplicación que ha de desarrollar, la función que se va a
-representar será codificada *hardcoded* en su código fuente. 
-Para cambiar la función que se representa habría que modificar la función principal del programa.
+En la aplicación que ha de desarrollar comience, a diferencia de la aplicación de referencia, haciendo que la
+función que se vaya a representar figure codificada (*cableada*, *hardcoded*) en su código fuente de modo que
+para cambiar la función que se representa habría que modificar la función principal del programa.
+Con posterioridad, intente una aproximación más elaborada, como la de la página de referencia, en la que la
+función pueda ser introducida por el usuario. 
+Para explorar esta segunda aproximación tal vez le resulte útil estudiar el analizador de expresiones
+(*Expression parser*) de librería
+[mathjs](https://mathjs.org/) 
 
 Previo al desarrollo, realice un diseño de su aplicación identificando las diferentes clases que
 intervienen en el programa.
@@ -80,20 +86,20 @@ Utilice *LucidChart* para dibujar un diagrama UML de las clases que intervienen.
 La visualización de la ejecución del programa se realizará a través de una página web alojada
 en la máquina IaaS-ULL de la asignatura (puede utilizar si lo desea la extensión *Live View* de VSC) y cuya URL tendrá la forma:
 
-[1] `http://10.6.129.123:8080/einstein-albert-graphic-calculator.html`
+[1] `http://10.6.129.123:8080/einstein-albert-function-rendering.html`
 
 en la que se embeberá un lienzo (canvas) para dibujar la gráfica de una función.
 Sustituya *Albert Einstein* por su nombre y apellido en la URL de su página
 y la dirección IP anterior por la correspondiente a su máquina IaaS.
 
-La web [1] mostrará un lienzo (canvas) que ocupe la mayor parte de una pantalla de ordenador de resolución usual.
+La web [1] mostrará un lienzo (canvas) que ocupe la mayor parte del viewport de su navegador.
 
 No es necesario que invierta esfuerzo en la programación de los aspectos de esa página que no tienen relación
 con TypeScript. 
 Tanto HTML como CSS son aspectos que se estudiarán con mayor nivel de detalle en el futuro. 
 No se requiere que dedique esfuerzo a esos aspectos en esta práctica.
 Tampoco se propone en esta práctica que utilice elementos interactivos (botones, campos de texto, selectores,
-etc.).
+etc.) salvo quizás un campo de texto para leer la función que el usuario propone representar.
 
 Diseñe asimismo otra página HTML simple 
 
@@ -113,7 +119,8 @@ Las siguientes deben tomarse como especificaciones adicionales de la aplicación
 ## Diseño orientado a objetos
 Se deja total libertad al alumnado para diseñar la aplicación de la forma que estime más conveniente.
 Se valorará la puesta en práctica en el diseño que se realice de los contenidos relacionados con principios y
-buenas prácticas de OOP estudiados en la asignatura.
+buenas prácticas de OOP estudiados en la asignatura así como el uso de alguno de los patrones de diseño que ha
+estudiado.
 
 ## Referencias
 * [TypeScript Tutorial](https://www.typescripttutorial.net/)
