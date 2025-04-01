@@ -44,9 +44,6 @@ El programa que desarrolle ha de ser orientados a objetos.
 Ponga en práctica los principios de abstracción y encapsulamiento característicos 
 de la OOP así como las buenas prácticas, principios y patrones que han sido expuestos en las clases de la asignatura.
 
-Previo a la implementación de cada clase, diseñe y desarrolle un conjunto de tests para probar el correcto
-funcionamiento de todos los métodos que desarrolle.
-
 Configure para esta práctica una página web que sirva de índice para mostrar la documentación generada por
 TypeDoc para su aplicación.
 
