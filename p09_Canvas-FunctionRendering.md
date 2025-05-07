@@ -80,6 +80,10 @@ Previo al desarrollo, realice un diseño de su aplicación identificando las dif
 intervienen en el programa.
 Utilice *LucidChart* para dibujar un diagrama UML de las clases que intervienen.
 
+### Interfaz gráfica de la aplicación 
+La interfaz gráfica de la aplicación se desarrollará a través de diferentes páginas HTML.
+Haga que en el elemento `title` del código HTML de todas las páginas web de su poroyecto figure su nombre y apellidos.
+
 La visualización de la ejecución del programa se realizará a través de una página web alojada
 en la máquina IaaS-ULL de la asignatura (puede utilizar si lo desea la extensión *Live View* de VSC) y cuya URL tendrá la forma:
 
